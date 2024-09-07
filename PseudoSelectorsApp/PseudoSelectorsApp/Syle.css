@@ -1,0 +1,13 @@
+﻿body {
+}
+.main{
+    width:50%;
+    padding:20px;
+    background-color:aquamarine;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+button,input{
+    width:100%;
+}

@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Qrde\\Desktop\\studia\\javascript\\lekcja1\\Pseudoselektory\\PseudoSelectorsApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}|PseudoSelectorsApp\\PseudoSelectorsApp.csproj|c:\\users\\qrde\\desktop\\studia\\javascript\\lekcja1\\pseudoselektory\\pseudoselectorsapp\\pseudoselectorsapp\\mainpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}|PseudoSelectorsApp\\PseudoSelectorsApp.csproj|solutionrelative:pseudoselectorsapp\\mainpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}|PseudoSelectorsApp\\PseudoSelectorsApp.csproj|c:\\users\\qrde\\desktop\\studia\\javascript\\lekcja1\\pseudoselektory\\pseudoselectorsapp\\pseudoselectorsapp\\syle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}|PseudoSelectorsApp\\PseudoSelectorsApp.csproj|solutionrelative:pseudoselectorsapp\\syle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Syle.css",
+              "DocumentMoniker": "C:\\Users\\Qrde\\Desktop\\studia\\javascript\\lekcja1\\Pseudoselektory\\PseudoSelectorsApp\\PseudoSelectorsApp\\Syle.css",
+              "RelativeDocumentMoniker": "PseudoSelectorsApp\\Syle.css",
+              "ToolTip": "C:\\Users\\Qrde\\Desktop\\studia\\javascript\\lekcja1\\Pseudoselektory\\PseudoSelectorsApp\\PseudoSelectorsApp\\Syle.css",
+              "RelativeToolTip": "PseudoSelectorsApp\\Syle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-07T12:02:35.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.html",
+              "DocumentMoniker": "C:\\Users\\Qrde\\Desktop\\studia\\javascript\\lekcja1\\Pseudoselektory\\PseudoSelectorsApp\\PseudoSelectorsApp\\MainPage.html",
+              "RelativeDocumentMoniker": "PseudoSelectorsApp\\MainPage.html",
+              "ToolTip": "C:\\Users\\Qrde\\Desktop\\studia\\javascript\\lekcja1\\Pseudoselektory\\PseudoSelectorsApp\\PseudoSelectorsApp\\MainPage.html",
+              "RelativeToolTip": "PseudoSelectorsApp\\MainPage.html",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-07T12:02:20.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

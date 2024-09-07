@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pseudo Selectros</title>
+    <link rel="Stylesheet" type="text/css" href="Syle.css"/>
+</head>
+<body>
+    <div class="main">
+        <button>First button</button>
+        <input type="button" value="Second Button" />
+
+    </div>
+    <div class="main">
+        
+        <input type="checkbox" />
+
+    </div>
+    <div class="main">
+        <input type="text" disabled="disabled"/>
+        <input type"text"/>
+        </div>
+    <div class="main">
+
+        <p>ten paragraf nie jest pusty</p>
+        <p></p>
+
+    </div>
+    <div class="main">
+
+        <table border="1">
+            <tr><td>Wiersz zerowy</td></tr>
+            <tr><td>Wiersz pierwszy</td></tr>
+            <tr><td>Wiersz drugi </td></tr>
+            <tr><td>Wiersz trzeci</td></tr>
+        </table>
+
+    </div>
+    <div class="main">
+        <h1>Nagłówek 1</h1>
+        <h2>Nagłówek 2</h2>
+        <h3>Nagłówek 3</h3>
+    </div>
+    <div class="main">
+        <p>Potomek 1</p>
+        <p>Potomek 2</p>
+        <p>Potomek 3</p>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(":button").css({
+                backgroundColor: "green",
+                color: "black",
+                border: "3px solid brown"
+            });
+            // aby oscylować element typu checkbox trzeba go zawinąć tagami span 
+            $(":checkbox")
+                .wrap("<span></span> ") //zawijamy w elementy span
+                .parent() //oscylowanie
+                .css({
+                    backgroundColor: "green",
+                    border:"3px red solid"
+                });
+            // kod sprawia że oscylowany zostaje tylko input disable 
+            $("input:disabled").css({
+                backgroundColor: "grey",
+                color: "green"
+            });
+
+            //kod sprawia że zostaje oscylowany pusty element 
+            $("p:empty").text("Was empty!").css("backgroundColor", "gray"); //metoda text dodaje napis zawarty w nawiasach
+
+            // pseudoselektor even wybierze tylko elementy które są parzyste
+            $("tr:even").css("backgroundColor", "darkgreen");
+
+            // pseudoselektor odd wybierze tylko elementy które są nieparzyste
+            $("tr:odd").css("backgroundColor", "gray");
+
+            //pseudoselektor wynajdujący dostępne (enable) inputy 
+            $("input:enabled").val("tu można coś wpisać!!!").css("backgroundColor", "green");
+
+            //pseudoselektor wybierze wszystkie nagłówki 
+            $(":header").css({
+                backgroundColor: " red",
+                color:"white"
+            });
+
+            //oscylowanie do potomków pseudoselektor (first-child) powoduje znalezienie pierwszego z grupy kilku takich samych tagów (np <p>) 
+            $("div p:first-child").css("textAlign", "center");
+            $("div p:last-child").css("textAlign", "center");
+        </script>   
+    
+</body>
+</html>
