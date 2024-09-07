@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoSelectorsApp", "PseudoSelectorsApp\PseudoSelectorsApp.csproj", "{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE83C6D-CEC7-4C5A-90FF-C3A27E4E17ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC9C9D0A-5F47-4C8E-8C18-8FA772DC678B}
+	EndGlobalSection
+EndGlobal
